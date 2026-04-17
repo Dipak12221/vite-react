@@ -1,0 +1,89 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Helvetica Neue", Helvetica, sans-serif;
+}
+html,body{
+ height: 100%;
+ width: 100%;
+ background-color: black;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card{
+  width: 300px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px #ffffff;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top .btn{
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+  color: gray;
+}
+.card img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+.mid{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 0px;
+  padding-bottom: 60px;
+}
+.mid-companyname{
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+.midbtn button{
+  margin: 0 5px;
+  padding: 5px;
+  background-color: rgb(208, 208, 208);
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+}
+.buttom{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid gray;
+  padding: 20px 0px;
+}
+.buttom button{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.buttom h3{
+  font-weight: 900;
+  letter-spacing: 0.8px;
+}
+span{
+  color: grey;
+  font-size: smaller;
+}
